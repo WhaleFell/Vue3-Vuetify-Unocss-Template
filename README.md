@@ -7,11 +7,11 @@ This tamplate skeleton is a Vue 3 project with Vuetify and UnoCSS.
 ```sh
 pnpm create vue@latest
 pnpm install
-pnpm add -D prettier
-pnpm i vuetify
+# Add prettier and unocss
+pnpm add -D prettier unocss @unocss/preset-icons @iconify-json/mdi
+# add vuetify
+pnpm add vuetify
 pnpm add -D vite-plugin-vuetify
-pnpm add -D unocss
-pnpm add -D @unocss/preset-icons @iconify-json/mdi
 ```
 
 ## Recommended IDE Setup
